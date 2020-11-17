@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+body	
+{
+	background-color: pink;
+	color: black;
+	margin: 50px;
+	border:5px solid #fff;
+
+	padding: 50px;
+	border-radius: 5px;
+
+}
+
+.main h1
+{
+	text-align: center;
+	font-size: 40px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	text-shadow: 4px 4px 4px black;
+	color: #F60;
+	font-family: 'arial';
+}
+
+
+
+
+.about , .service, .contact
+{
+	padding: 30px;
+	border: 2px solid #999;
+	border-radius: 4px;
+	margin: 20px auto;
+
+}
+
+.about h4 ,.service h4, .contact h4
+{
+	font-size: 30PX;
+	color: #F60;
+	text-shadow: 2px 2px #000;
+	font-family: cursive;
+
+}
+
+.about p
+{
+	text-align: justify;
+	line-height: 22px;
+	color: black;
+	font-size: 16px;
+}
+
+.service table
+{
+	width:100%;
+}
+
+.service table th
+{
+	background-color: #F60;
+	padding: 20px;
+}
+
+.service table td
+{
+	background-color: #999;
+	padding: 20px;
+	text-align: center;
+}
+
+.contact input[type="text"], .contact input[type="email"], .contact input[type="number"], .contact textarea
+{
+	width: 100%;
+	border:1px solid #000;
+	border-radius: 12px;
+	padding: 10px;
+}
+
+.contact input[type="submit"]
+{
+	background-color: #f60;
+	width: 100%;
+	border:1px solid #000;
+	padding: 10px;
+	margin-top: 30px;
+}
+
+.viewport
+{
+	zoom: 1.0;
+	width: extend-to-zoom;
+}
+
+.-ms-viewport
+{
+	width: extend-to-zoom;
+	zoom: 1.0;
+}
+
+
+</style>
+<title>The IceCream Shop</title>
+
+</head>
+<body>
+	<header class="main">
+		<h1><b>The Ice Cream Shop</b></h1>
+	</header>
+	
+	<section class="about">
+		<h4>About Us</h4>
+		<hr/>
+		<p>Ice cream shop are places which sell ice cream, gelato, sorbet, and frozen yogurt to consumers.
+			ice cream is typically sold as regular ice cream, gelato or soft serve, which is usually dispensed by a machine with a limited number of flavours.
+		</p>
+		<p>In our shop you will find any kind and flavoured ice creams. and we do home delivery also.</p>
+	</section>
+
+	<section class="service">
+		<h4>services</h4>
+		<hr>
+		<table>
+			<tr>
+				<th>sno</th>
+				<th>item name</th>
+				<th>quantity</th>
+				<th>price</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>swis chocolate</td>
+				<td>20</td>
+				<td>2000</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Pistachoco</td>
+				<td>10</td>
+				<td>1000</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Honeythreecream</td>
+				<td>1</td>
+				<td>150</td>
+			</tr>
+		</table>
+	</section>
+
+	<section class="contact">
+		<h4>Contact Us</h4>
+		<hr>
+		<form name="" method="post" action="">
+			<div>
+				<label>Enter Name</label><br>
+				<input type="text" name="name" placeholder="name" required=""><br><br>
+			</div>
+
+			<div>
+				<label>Enter Email</label><br>
+				<input type="email" name="email" placeholder="Email Address" required=""><br><br>
+			</div>
+
+
+			<div>
+				<label>Enter Phone</label><br>
+				<input type="number" name="phone" placeholder="phone number" required=""><br><br>
+			</div>
+
+			<div>
+				<label>Enter Message</label><br>
+				<textarea rows="4" name="Message" placeholder="Message" required=""></textarea><br><br>			
+			</div>
+
+			<div>
+				<input type="submit" name="btn_contact" value="send Message">
+			</div>
+		</form>
+
+	</section>
+
+</body>
+</html>
